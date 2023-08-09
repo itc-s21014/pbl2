@@ -16,7 +16,7 @@
             android:name=".SettingFinishedActivity"
             android:exported="false" />
         <activity
-            android:name=".SignUpActivity"
+            android:name=".SignupActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
