@@ -5,4 +5,5 @@
     <string name="passwd">パスワード</string>
     <string name="login2">ログイン</string>
     <string name="sign">新規登録</string>
+    <string name="register">登録</string>
 </resources>
