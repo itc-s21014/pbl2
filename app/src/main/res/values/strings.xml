@@ -6,9 +6,20 @@
     <string name="login2">ログイン</string>
     <string name="sign">新規登録する</string>
     <string name="register">登録</string>
+
+<!--    setting finished-->
     <string name="sf_setting_finished">登録完了⏱</string>
     <string name="sf_to_home">HOMEに戻る</string>
     <string name="sf_to_use">使ってみる</string>
+
+<!--    character-->
+    <string name="chara_back">←</string>
+    <string name="chara_question">あなたの性格は？</string>
+    <string name="chara_tekipaki">てきぱき</string>
+    <string name="chara_nombiri">のんびり</string>
+    <string name="chara_finished">完了</string>
+
+
     <string name="startbutton">はじめる</string>
     <string name="Userregister">ユーザー登録が完了しました!</string>
 </resources>
