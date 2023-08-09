@@ -9,4 +9,9 @@
     <string name="sf_setting_finished">登録完了⏱</string>
     <string name="sf_to_home">HOMEに戻る</string>
     <string name="sf_to_use">使ってみる</string>
+
+    <string name="chara_question">あなたの性格は？</string>
+    <string name="chara_tekipaki">てきぱき</string>
+    <string name="chara_nombiri">のんびり</string>
+    <string name="chara_finished">完了</string>
 </resources>
