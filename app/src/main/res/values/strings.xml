@@ -5,5 +5,8 @@
     <string name="passwd">パスワード</string>
     <string name="login2">ログイン</string>
     <string name="sign">新規登録</string>
-    <string name="register">登録</string>
+
+    <string name="sf_setting_finished">登録完了⏱</string>
+    <string name="sf_to_home">HOMEに戻る</string>
+    <string name="sf_to_use">使ってみる</string>
 </resources>
