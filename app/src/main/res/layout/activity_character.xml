@@ -40,14 +40,14 @@
         android:layout_height="wrap_content"
         android:background="@drawable/partsdesign"
         android:text="@string/chara_tekipaki"
+        android:textColor="#0288DE"
         android:textSize="24sp"
         app:backgroundTint="@null"
         app:layout_constraintBottom_toTopOf="@+id/guideline13"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline11"
-        app:layout_constraintWidth_max="220dp"
-        tools:textColor="#0288DE" />
+        app:layout_constraintWidth_max="220dp" />
 
     <Button
         android:id="@+id/charaNombiri"
@@ -69,7 +69,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/chara_question"
-        android:textColor="#0288DE"
         android:textSize="34sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline11"
         app:layout_constraintEnd_toEndOf="parent"
@@ -96,7 +95,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:text="@string/chara_back"
-        android:textColor="#0288DE"
+        android:textColor="#000"
         android:textSize="34sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
