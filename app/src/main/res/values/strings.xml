@@ -13,6 +13,12 @@
     <string name="finish">完了</string>
     <string name="star">★</string>
 
+    <!--    home-->
+    <string name="hm_home">HOME</string>
+    <string name="hm_to_setting">設定する</string>
+    <string name="hm_start">START</string>
+    <string name="hm_to_how_to_use">？</string>
+
     <!--    setting finished-->
     <string name="sf_setting_finished">登録完了⏱</string>
     <string name="sf_to_home">HOMEに戻る</string>
