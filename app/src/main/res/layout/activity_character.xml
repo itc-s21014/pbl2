@@ -25,38 +25,35 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="574dp" />
+        app:layout_constraintGuide_begin="545dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="423dp" />
+        app:layout_constraintGuide_begin="405dp" />
 
     <Button
         android:id="@+id/charaTekipaki"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="@drawable/partsdesign"
-        android:paddingLeft="36dp"
-        android:paddingRight="36dp"
         android:text="@string/chara_tekipaki"
+        android:textColor="#0288DE"
         android:textSize="24sp"
         app:backgroundTint="@null"
         app:layout_constraintBottom_toTopOf="@+id/guideline13"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline11"
-        tools:textColor="#0288DE" />
+        app:layout_constraintWidth_max="220dp" />
 
     <Button
         android:id="@+id/charaNombiri"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="@drawable/partsdesign"
-        android:paddingLeft="36dp"
-        android:paddingRight="36dp"
         android:text="@string/chara_nombiri"
         android:textColor="#0288DE"
         android:textSize="24sp"
@@ -64,14 +61,14 @@
         app:layout_constraintBottom_toTopOf="@+id/guideline12"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline13" />
+        app:layout_constraintTop_toTopOf="@+id/guideline13"
+        app:layout_constraintWidth_max="220dp" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/chara_question"
-        android:textColor="#0288DE"
         android:textSize="34sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline11"
         app:layout_constraintEnd_toEndOf="parent"
@@ -80,13 +77,26 @@
 
     <Button
         android:id="@+id/charaFinished"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="72dp"
         android:backgroundTint="#1FA8F8"
         android:text="@string/chara_finished"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline12"
+        app:layout_constraintWidth_max="150dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/chara_back"
+        android:textColor="#000"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
