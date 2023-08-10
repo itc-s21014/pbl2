@@ -3,6 +3,7 @@ package com.example.pbl
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import com.example.pbl.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -16,9 +17,16 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, SignupActivity::class.java)
             startActivity(intent)
         }
+
         binding.loginbtn.setOnClickListener {
             val intent = Intent(this, HomeActivity::class.java)
             startActivity(intent)
+        }
+
+        val helper = SimpleDatabaseHelper(this)
+        helper.writableDatabase.use {
+            Toast.makeText(this, "接続しました",
+                Toast.LENGTH_SHORT).show()
         }
     }
 }
