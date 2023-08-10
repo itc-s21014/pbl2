@@ -65,7 +65,7 @@
         app:layout_constraintWidth_max="220dp" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/charaQuestion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/chara_question"
@@ -79,7 +79,7 @@
         android:id="@+id/charaFinished"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:backgroundTint="#1FA8F8"
+        android:backgroundTint="#0288DE"
         android:text="@string/chara_finished"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -88,15 +88,16 @@
         app:layout_constraintTop_toTopOf="@+id/guideline12"
         app:layout_constraintWidth_max="150dp" />
 
-    <TextView
-        android:id="@+id/textView2"
+    <Button
+        android:id="@+id/charaBack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#fff"
         android:text="@string/chara_back"
         android:textColor="#000"
         android:textSize="34sp"
+        app:backgroundTint="@null"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
