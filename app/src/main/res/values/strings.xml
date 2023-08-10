@@ -50,4 +50,6 @@
     <string name="menu">MENU</string>
     <string name="task"> タスク設定</string>
     <string name="character">性格設定</string>
+    <string name="nowtime">現在時刻</string>
+    <string name="starttime">出発時刻</string>
 </resources>
