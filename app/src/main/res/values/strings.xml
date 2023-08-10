@@ -6,6 +6,12 @@
     <string name="login2">ログイン</string>
     <string name="sign">新規登録する</string>
     <string name="register">登録</string>
+    <string name="re_turn">←</string>
+    <string name="task2">タスク名</string>
+    <string name="time">所要時間</string>
+    <string name="plus">+</string>
+    <string name="finish">完了</string>
+    <string name="star">★</string>
 
 <!--    setting finished-->
     <string name="sf_setting_finished">登録完了⏱</string>

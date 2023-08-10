@@ -13,7 +13,7 @@ class SignupActivity : AppCompatActivity(){
         binding = ActivitySignupBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.signupregi.setOnClickListener {
+        binding.signupregibtn.setOnClickListener {
             val intent = Intent(this, RegisterActivity::class.java)
             startActivity(intent)
         }
