@@ -36,7 +36,7 @@
         app:layout_constraintGuide_percent="0.27" />
 
     <Button
-        android:id="@+id/Plusbtn"
+        android:id="@+id/addButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#1FA8F8"
