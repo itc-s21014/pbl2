@@ -50,7 +50,7 @@
         app:layout_constraintWidth_max="220dp" />
 
     <Button
-        android:id="@+id/hmHowToUse"
+        android:id="@+id/hmToHowToUse"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
