@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         val helper = SimpleDatabaseHelper(this)
-        helper.writableDatabase.use {
+        helper.writableDatabase.use { db ->
             Toast.makeText(this, "接続しました",
                 Toast.LENGTH_SHORT).show()
         }
