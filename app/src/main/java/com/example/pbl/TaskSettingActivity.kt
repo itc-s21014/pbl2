@@ -21,7 +21,7 @@ class TaskSettingActivity : AppCompatActivity() {
         }
 
         binding.Finishbtn.setOnClickListener {
-            val intent = Intent(this, SettingFinishedActivity::class.java)
+            val intent = Intent(this, CharacterActivity::class.java)
             startActivity(intent)
         }
     }

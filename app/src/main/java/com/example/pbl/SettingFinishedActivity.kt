@@ -19,7 +19,7 @@ class SettingFinishedActivity : AppCompatActivity() {
         }
 
         binding.sfToUse.setOnClickListener {
-            val intent = Intent(this, HowToUseActivity::class.java)
+            val intent = Intent(this, TimeSettingActivity::class.java)
             startActivity(intent)
         }
     }

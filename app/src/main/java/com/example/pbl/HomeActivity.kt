@@ -15,13 +15,14 @@ class HomeActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.hmToSetting.setOnClickListener{
-            val intent = Intent(this, MenuActivity::class.java)
+            val intent = Intent(this, TaskSettingActivity::class.java)
             startActivity(intent)
         }
 
-//        binding.hmStart.setOnClickListener{
-//            val intent = Intent(this, )
-//        }
+        binding.hmStart.setOnClickListener{
+            val intent = Intent(this, TimeSettingActivity::class.java)
+            startActivity(intent)
+        }
 
         binding.hmToHowToUse.setOnClickListener{
             val intent = Intent(this, HowToUseActivity::class.java)

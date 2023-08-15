@@ -13,6 +13,21 @@
         android:theme="@style/Theme.Pbl"
         tools:targetApi="31">
         <activity
+            android:name=".TaskSettingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MenuActivity"
+            android:exported="false" />
+        <activity 
+            android:name=".TimeSettingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
             android:name=".HowToUseActivity"
             android:exported="false" />
         <activity
