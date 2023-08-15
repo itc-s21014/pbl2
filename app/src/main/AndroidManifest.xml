@@ -21,9 +21,6 @@
         <activity
             android:name=".RegisterActivity"
             android:exported="false" />
-        <activity
-            android:name=".MenuActivity"
-            android:exported="false" />
         <activity 
             android:name=".TimeSettingActivity"
             android:exported="false" />
@@ -32,36 +29,19 @@
             android:exported="false" />
         <activity
             android:name=".HowToUseActivity"
-            android:exported="false">
-        </activity>
+            android:exported="false"/>
         <activity
             android:name=".CharacterActivity"
-            android:exported="false">
-        </activity>
+            android:exported="false"/>
         <activity
             android:name=".SettingFinishedActivity"
-            android:exported="false">
-        </activity>
+            android:exported="false"/>
         <activity
             android:name=".SignupActivity"
-            android:exported="false">
-        </activity>
-        <activity
-            android:name=".HomeActivity"
-            android:exported="false">
-        </activity>
-        <activity
-            android:name=".TaskSettingActivity"
-            android:exported="false">
-        </activity>
-        <activity
-            android:name=".TimeSettingActivity"
-            android:exported="false">
-        </activity>
+            android:exported="false"/>
         <activity
             android:name=".EndActivity"
-            android:exported="false">
-        </activity>
+            android:exported="false"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">
