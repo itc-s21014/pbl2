@@ -2,6 +2,7 @@ package com.example.pbl
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.pbl.databinding.ActivityHomeBinding
 
@@ -26,6 +27,11 @@ class HomeActivity : AppCompatActivity() {
             val intent = Intent(this, HowToUseActivity::class.java)
             startActivity(intent)
         }
-    }
 
+        val helper = SimpleDatabaseHelper(this)
+        helper.writableDatabase.use { db ->
+            Toast.makeText(this, "ログインしました",
+                Toast.LENGTH_SHORT).show()
+        }
+    }
 }
