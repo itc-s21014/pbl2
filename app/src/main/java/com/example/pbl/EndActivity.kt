@@ -17,9 +17,11 @@ class EndActivity : AppCompatActivity(){
         super.onCreate(savedInstanceState)
         binding = ActivityEndBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        showNotificationWithSound(this, "次の準備", "新しいメッセージが届きました。")
     }
 
-    private fun showNotificationWithSound(context: Context, title: String, content: String) {
+    fun showNotificationWithSound(context: Context, title: String, content: String) {
         val notificationManager = context.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
@@ -29,8 +31,6 @@ class EndActivity : AppCompatActivity(){
             val channel = NotificationChannel(channelId, channelName, importance)
             notificationManager.createNotificationChannel(channel)
         }
-
-        showNotificationWithSound(context, "新しいメッセージ", "新しいメッセージが届きました。")
 
         val soundUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION)
 
