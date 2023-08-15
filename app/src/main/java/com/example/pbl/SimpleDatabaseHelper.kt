@@ -10,16 +10,16 @@ class SimpleDatabaseHelper(context: Context?): SQLiteOpenHelper(context, DBNAME,
         private const val version = 1
     }
 
+    // まだ未完成
     override fun onCreate(db: SQLiteDatabase?) {
         db?.let {
-            it.execSQL("INSERT INTO items (Item_id, Item_name)" + " VALUES('1', '名前')")
-            it.execSQL("INSERT INTO items (Item_id, Item_name)" + " VALUES('1', 'パスワード')")
+            it.execSQL("create table signup (id integer primary key, name text, password text)")
         }
     }
 
     override fun onUpgrade(db: SQLiteDatabase?, oldVersion: Int, newVersion: Int) {
         db?.let {
-            it.execSQL("DROP TABLE IF EXISTS memos")
+            it.execSQL("DROP TABLE IF EXISTS signup")
             onCreate(it)
         }
     }
