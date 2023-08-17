@@ -13,7 +13,7 @@ class SimpleDatabaseHelper(context: Context?): SQLiteOpenHelper(context, DBNAME,
     // まだ未完成
     override fun onCreate(db: SQLiteDatabase?) {
         db?.let {
-            it.execSQL("create table signup (id integer primary key, name text, password text)")
+            it.execSQL("create table signup (" + "id integer primary key, name text, password text)")
         }
     }
 

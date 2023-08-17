@@ -22,7 +22,7 @@ class SignupActivity : AppCompatActivity(){
         val Name = findViewById<EditText>(R.id.Name)
         val Password = findViewById<EditText>(R.id.Password)
 
-        findViewById<Button>(R.id.signupregibtn).setOnClickListener {
+        binding.signupregibtn.setOnClickListener {
             helper.writableDatabase.use { db ->
                 val cv = ContentValues().apply {
                     put("name", Name.text.toString())
