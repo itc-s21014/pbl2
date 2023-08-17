@@ -8,7 +8,6 @@ import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.pbl.databinding.ActivitySignupBinding
-import java.util.jar.Attributes.Name
 
 class SignupActivity : AppCompatActivity(){
     companion object{

@@ -13,7 +13,7 @@ class ExecutionActivity : AppCompatActivity() {
         binding = ActivityExecutionBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.button.setOnClickListener {
+        binding.resetbtn.setOnClickListener {
             val intent = Intent(this, HomeActivity::class.java)
             startActivity(intent)
         }
