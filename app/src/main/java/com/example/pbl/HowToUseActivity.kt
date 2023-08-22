@@ -13,9 +13,5 @@ class HowToUseActivity : AppCompatActivity() {
         binding = ActivityHowToUseBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.htuBack.setOnClickListener {
-            val intent = Intent(this, HomeActivity::class.java)
-            startActivity(intent)
-        }
     }
 }
